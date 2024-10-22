@@ -68,24 +68,27 @@ nav a:hover {
 .boton:hover {
   background-color: #0056b3;
 }
-/*footer*/
+/* Estilos del footer */
 footer {
-  background-color: #b09f9f;
-  padding: 40px; /*espacio interno*/
+  background-color: #333; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+  padding: 20px; /* Espacio interno */
 }
+
+/* Estilo del contenedor del footer */
 #footerLista {
-  display: flex; 
-  justify-content: space-between;
+  display: flex; /* Usa flexbox para alinear los elementos */
+  justify-content: space-between; /* Espacio entre los elementos */
   align-items: flex-start; /* Alinea verticalmente al inicio */
-  max-width: 1500px; /* Ajusta el ancho máximo según tus necesidades */
+  max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
   margin: 0 auto; /* Centra el footer en la página */
 }
 
 /* Estilo para los items del footer */
 .footer-item {
-  flex: 1; 
-  padding: 20px; /* Espacio interno para los items */
-  border-right: 1px solid #fffefe; /* Línea divisoria a la derecha */
+  flex: 1; /* Permite que cada item crezca para ocupar espacio */
+  padding: 10px; /* Espacio interno para los items */
+  border-right: 1px solid #555; /* Línea divisoria a la derecha */
 }
 
 .footer-item:last-child {
@@ -98,7 +101,7 @@ footer {
 }
 
 .footer-img {
-  max-width: 100px; /* Ajusta el tamaño de la imagen de la casa */
+  max-width: 80px; /* Ajusta el tamaño de la imagen de la casa */
   height: auto; /* Mantiene la proporción de la imagen */
 }
 
